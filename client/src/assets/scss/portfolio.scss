@@ -1,0 +1,298 @@
+.content{
+    position: relative;
+    background: #131415;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    padding-top: 2rem;
+    gap: 3rem;
+    width: 80%;
+    
+}
+.PP{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.panel{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ width: 142px;
+ background: #2D2F32; 
+ justify-content: center;
+}
+.PT{
+   position: relative;
+   display: flex;
+   flex-direction: column;   
+   justify-content: center;
+   left: 1rem;
+}
+
+.T1{
+    
+    font-size: 14px;
+    line-height: 165%;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'ss02' on, 'liga' off;
+    color: #FFFFFF;
+    margin: 0.5rem;
+   
+}
+.T2{
+    
+    font-size: 12px;
+    line-height: 165%;
+    //letter-spacing: 0.02em;
+    font-feature-settings: 'ss02' on, 'liga' off;
+    color: #FFFFFF;
+    
+}
+.header-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 0rem;
+    
+
+}
+.middle-title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    @media (max-width: 930px) {
+        flex-direction: column;
+    }
+    .left-title{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 2.125rem;
+        width: 260px;
+        background: #2D2F32;
+        border-radius: 24px;
+        justify-content: center;
+        align-items: center;
+        left: 0rem;
+        margin-bottom: 0.5rem;
+        .LT{
+            position: relative;   
+            padding: 4px 12px;
+            width: 95px;
+            height: 26px;
+            left: 0.4rem;
+            background: #BBED55;
+            border-radius: 32px;
+            margin-bottom: 0rem;
+            margin-right: 1.5rem;
+        }
+        .RT{
+            position: relative;
+            height: 26px;
+            width: 116px;
+            top:0.2rem;
+            right: 1rem;
+            margin-left: 1rem;
+            margin-bottom: 0rem;
+        }
+    }
+    .right-title{
+        position: relative;
+        display: flex;
+        align-items: center;
+        right: 0rem;
+        @media (max-width: 930px) {
+            flex-direction: column;
+        }
+        .searchPanel2{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 7px 12px;
+            gap: 10px;
+            position: relative;
+            width: 200px;
+            height:34px;
+            background: #2D2F32;
+            border-radius: 52px;
+            margin-bottom: 0.5rem;
+            
+        }
+        .greypanel{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 7px 12px;
+            gap: 10px;
+            position: relative;
+            height:34px;
+            background: #2D2F32;
+            border-radius: 52px;   
+            margin: 0.25rem;   
+            justify-content: space-around; 
+            margin-bottom: 0.5REM;
+        }
+        .width1{
+            width: 103px;
+        }
+        
+        .width2{
+            width: 151px;
+        }    
+    }
+}
+.searchPanel{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px 12px;
+    gap: 10px;
+    position: relative;
+    width: 200px;
+    height: 31.17px;
+    background: #2D2F32;
+    border-radius: 52px;
+    .form-control{
+        border-radius: 52px;
+        background: #2D2F32;
+        border-color: #2D2F32;
+        width: 200px;
+        height: 31.17px;
+        display: flex;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+   
+    
+}
+
+.dropdown-menu{
+    background: #2D2F32;
+}
+.down-2{
+    display: flex;
+    flex-direction: row;
+}
+.new{
+    margin-left: 1rem;
+    background: #BBED55;
+    align-items: center;
+    width:3rem;
+    padding-left: 0.5rem;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    width: 100%;
+    background: #363636;
+    border-radius: 10px;
+
+}
+.card-list{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0.5rem 0.5rem;
+        gap: 1rem;
+        width: 23.1875rem;
+        height: 32.4375rem;
+        background: #131415;        
+        border: 1px solid #3B3C3F;
+        border-radius: 24px;    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        scrollbar-gutter: 0.75rem;
+        margin-left: 0.75rem;
+        margin-bottom: 1.5rem;
+
+        
+        .main-card{
+            position: relative;
+            .mainpt{
+                width: 100%;
+            }
+            .CT1{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 2px 8px;
+                gap: 8px;
+                width: 79px;
+                height: 24px;
+                border: 1px solid #3B3C3F;
+                border-radius: 48px;
+                align-items: center;
+                margin-top: 1.125rem;
+                margin-bottom: 0.5rem;
+            }
+            .CPT{
+                height: 1.5rem;
+                display: flex;
+                flex-direction: row;
+                margin-top: 1rem;
+                margin-right:0.5rem;
+
+            }
+            .pt{
+                margin-right: 0.5rem;
+            }
+            
+        }
+        
+    }
+}
+.t1{
+    
+    //font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+}
+.t2{
+    font-size: 16px;
+    line-height: 165%;
+    margin-bottom: 0px;
+
+}
+.fw{
+    font-weight: 500;
+}
+.t4{
+    font-size: 12px;
+    line-height: 165%;
+    margin: 0rem;
+}
+.t3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.white{
+    color: #FFFFFF;
+}
+.grey{
+    color: #AAADB3;
+}
+.black{
+    color: #000000;
+}
+
+

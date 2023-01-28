@@ -1,0 +1,179 @@
+.Navbar{
+     
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     width: 100% !important;
+     background: #131415;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-between;
+     margin: 1rem;
+ }
+ .container{
+     width:1440px
+
+ }
+ 
+ .LB{
+     position: relative;
+     display: flex;
+     align-items: center;
+     left: 0rem;
+ }
+ .RB{
+     position: relative;
+     display: flex;
+     align-items: center;
+     margin-right: 1.5rem;
+     .imgpanel{
+        flex-direction: row;
+     }
+ }
+ 
+ .log{
+     padding: 1.54rem;
+ }
+ .numPanel{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding: 4px 4px 4px 12px;
+     gap: 10px;
+     width: 15.8rem;
+     height: 2.43rem;
+     background: #2D2F32;
+     border-radius: 2.75rem;
+ }
+ .numPanel-ch{
+     display: flex;
+     flex-direction: row;
+     //padding: 4px 12px;
+     width: 138px;
+     height: 31px;
+     background: #131415;
+     border-radius: 42px;
+     right: 0.25rem;
+     align-items: center;
+ 
+ }
+ .searchPanel{
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 7px 12px;
+     gap: 10px;
+     position: relative;
+     width: 200px;
+     height: 31.17px;
+     background: #2D2F32;
+     border-radius: 52px;
+     
+     .form-control{
+         border-radius: 52px;
+         background: #2D2F32;
+         border-color: #2D2F32;
+         width: 200px;
+         height: 31.17px;
+         display: flex;
+         position: absolute;
+         left: 0px;
+         top: 0px;
+     }
+    
+     
+ }
+ .navbar-nav{
+     background-color: #131415;
+     border-color: none;
+ }
+ .navbar-toggler{
+     background-color: #2D2F32;
+     border-color: #2D2F32;
+ }
+ 
+ 
+ 
+ .menubar{
+     display: flex;
+     position: relative;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+ .ring{
+     width: 1rem;
+     margin-left: 0.75rem;
+     margin-right: 0.5rem;
+ }
+ .circle{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: #FFFFFF;
+     margin: 0.25rem;
+ }
+ .btn-log{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    width: 6rem;
+    height: 31.17px;
+    background: #2D2F32;
+    border-radius: 42px;
+    right: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+ }
+ .logpad{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ 
+ 
+ 
+ .NT1{    
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 100%;
+     color: #71767B;
+ }
+ .NT2{
+     
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 165%;   
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+   
+     margin-right:1.31515rem;
+     margin-bottom: 0rem;
+ }
+ .NT3{    
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 165%;  
+     margin: 0rem;
+ 
+ }
+ .white{
+     color: #FFFFFF;
+ }
+ .yellow{
+    color: #BBED55;
+ }
+ .container-fluid{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ 
+   

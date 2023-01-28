@@ -1,0 +1,21 @@
+.footer{
+    position: relative;
+    width: 58.1875%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    .footertitle{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+    }
+    .footer-iconset{
+        position: relative;
+        height: 2.375rem;
+    }
+    
+}
